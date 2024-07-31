@@ -2,11 +2,13 @@
   "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
   "formatter": {
     "enabled": true,
+    "ignore": [".next"],
     "indentStyle": "space",
     "lineEnding": "lf"
   },
   "linter": {
     "enabled": true,
+    "ignore": [".next"],
     "rules": {
       "recommended": true
     }
